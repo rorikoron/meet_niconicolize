@@ -1,0 +1,13 @@
+{
+	"name": "meetDanmaku",
+	"manifest_version": 3,
+	"version": "0.1",
+	"permissions": ["storage"],
+	"content_scripts": [
+		{
+			"matches": ["https://meet.google.com/*"],
+			"css": ["initialize.css"],
+			"js": ["sample.js"]
+		}
+	]
+}

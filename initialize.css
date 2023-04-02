@@ -1,0 +1,8 @@
+.nulMpf{
+    display: none !important;
+}
+@keyframes moveLeft{
+    100%{
+        left: -2000px;
+    }
+}
